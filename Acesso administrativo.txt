@@ -1,0 +1,6 @@
+E-mail: conector.ns@gmail.com
+senha:  nelson123456789
+
+
+Acesso administrador
+link : http://Conector-ns/admin.php

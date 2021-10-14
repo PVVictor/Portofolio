@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'fonte01';
+    src: url("fontes/Darks_Calibri_Remix.ttf")
+}
+
+@font-face{
+    font-family:'fonte02';
+    src: url("fontes/Impactbrutas.ttf")
+}
+
+@font-face{
+    font-family:'fonte03';
+    src: url("fontes/Cairo.ttf")
+}
+
+@font-face{
+    font-family:'fonte04';
+    src: url("fontes/Roboto-BlackItalic.ttf")
+}
+
+
+
+
+/* Formatação do menu*/
+
+#logo{
+    margin-bottom: 5px;
+    margin-top:5px;
+}
+#menu ul{
+   text-transform:uppercase;
+}
+
+nav#menu h1{
+    display:none;
+}
+nav#menu li{
+    transition: bacground-color 1s;
+}
+
+/*nav#menu li:hover{
+    background-color:#82a4f9;
+}
+*/
+nav#menu a{
+    color:#ffffff;
+   
+}
+
+nav#menu a:hover{
+    color:#82a4f9;
+}
+
+ul#link a{
+    
+    color:#0b46da;
+}
+
+/* corpo do site*/
+
+body{
+    font-family: Arial , sans-serif;
+    background-color:#f7f2f2;
+    background-attachment: fixed;
+    color:black;
+
+}
+
+p{
+    text-indent:50px;
+    text-align:justify;
+}
+
+
+
+
+/* Formataçao de imagem com legenda*/
+
+
+figure.foto{
+    position:relative;
+    border:8px solid white;
+    box-shadow:1px 1px 4px black;
+    margin:0px 200px 0px 0px ;
+
+}
+
+figure.foto img{
+    width: 100%;
+    height:100%;
+}
+
+figure.foto figcaption{
+    opacity: 0;
+    position: absolute;
+    top:0px;
+    background-color:rgba(0,0,0,.4);
+    color: #ffffff;
+    width:100%;
+    height:100%;
+    padding:10px;
+    box-sizing: border-box; 
+    transition: opacity 1s;
+}
+figure.foto:hover figcaption{
+    opacity: 1;
+}
+
+/* formataçao de cabecalho ( header )*/
+
+header#cebecalho h1{
+    font-family: 'fonte01',sans-serif;
+    font-size:40px;
+    color:#606060;
+    text-shadow:1px 1px 1px rgba(0,0,0,.6);
+    padding:0px;
+    margin-bottom: 40px;
+}
+
+header#cebecalho h2{
+  font-family:Arial,sans-serif;  
+  font-size:15pt;
+  color:#888888;
+  padding:0px;
+}
+
+/* formataçao da ul*/
+ul#ul{
+    list-style:none;
+    text-transform: uppercase; 
+}
+
+ul#ul li a{
+ text-decoration:none;
+   color:rgb(65, 121, 243);
+   text-decoration: none;
+
+}
+ul#ul a:hover{
+    color:blue;
+}
+
+
+
+/* formataçao do section*/
+
+section#corpo{
+   /* display:block; */
+    width:100%px;
+    
+}
+
+
+ /* -- rodape -- */
+ footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+}
+
+
+
+
+.rg{
+    background-color:rgb(54, 54, 56);
+}
+
+
+.ph{
+    margin-left: 300px;
+}
+
+
+article#noticia-principal h3{
+   font-family: 'fonte02',sans-serif ;
+   font-size:20pt;
+  color:rgb(86, 83, 243);
+}
+
+article#noticia-principal h4{
+    font-family: 'fonte03',sans-serif ;
+    font-size:13pt;
+    color:#606060;
+ }
+
+
+
+ html, body #img-central {
+   padding-top: 30px;
+ }
